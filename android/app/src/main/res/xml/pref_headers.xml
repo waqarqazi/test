@@ -1,0 +1,32 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="cn.com.ekemp.demo.SettingsActivity$BarcodePreferenceFragment"
+        android:icon="@drawable/ic_barcode_black"
+        android:title="@string/pref_header_barcode" />
+    <header
+        android:fragment="cn.com.ekemp.demo.SettingsActivity$PSAMPreferenceFragment"
+        android:icon="@drawable/ic_psam_black"
+        android:title="@string/pref_header_card_psam" />
+    <header
+        android:fragment="cn.com.ekemp.demo.SettingsActivity$FingerprintPreferenceFragment"
+        android:icon="@drawable/ic_fingerprint_black"
+        android:title="@string/pref_header_fingerprint_biomini2" />
+
+  <!--  <header
+        android:fragment="cn.com.ekemp.demo.SettingsActivity$Fingerprint2SPreferenceFragment"
+        android:icon="@drawable/ic_fingerprint_black"
+        android:title="@string/pref_header_fingerprint_biomini2S" />-->
+
+    <header
+        android:fragment="cn.com.ekemp.demo.SettingsActivity$NfcPreferenceFragment"
+        android:icon="@drawable/ic_psam_black"
+        android:title="@string/pref_header_nfc" />
+
+    <header
+        android:fragment="cn.com.ekemp.demo.SettingsActivity$ContactCpuPreferenceFragment"
+        android:icon="@drawable/ic_card_insert_black"
+        android:title="@string/pref_header_card_contact_cpu" />
+</preference-headers>
